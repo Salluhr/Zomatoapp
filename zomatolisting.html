@@ -1,0 +1,253 @@
+<html>
+
+<head>
+    <title>Zomato</title>
+    <link href="images/zomato.jpg" rel="icon" />
+    <link href="zomato.css" rel="stylesheet" type="text/css" />
+    <link href="zomatomedia.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="brand">
+            <a href="index.html" target="_blank"><b><i>Zomato</i></b></a>
+        </div>
+
+        <div id="social">
+            <a href="https://www.facebook.com">
+                <img src="https://i.ibb.co/k680WPn/facebook.png" alt="fb" class="sociallogo" target="_blank" />
+            </a>
+            <a href="https://www.youtube.com">
+                <img src="https://i.ibb.co/KbDMzYF/youtube.png" alt="You Tube" class="sociallogo" target="_blank"/>
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="https://i.ibb.co/HDscmhq/Instagram.png" alt="Instagram" class="sociallogo" target="_blank"/>
+            </a>
+        </div>
+    </header>
+    <!-- Listing Part-->
+    <div id="content">
+        <div id="mainmenu">
+            <div id="menu">
+                <div id="home">
+                    <a href="index.html" target="_blank">Home</a>
+                    <a href="#">Filter</a>
+                </div>
+                <div id="dropbar">
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div id="log">
+                    <button>Sign Up</button>
+                    <button>Log In</button>
+                </div>
+            </div>
+        </div>
+        <div id="filterdiv">
+            <p id="filterhead"><b><u>Order By Catogories</u></b></p>
+            <h3 class="filtersubhead">Food Types</h3>
+            <div class="rad">
+                <input type="radio" />Veg
+            </div>
+            <div class="rad">
+                <input type="radio" />Non - Veg
+            </div>
+
+            <h3 class="filtersubhead">Food Categories</h3>
+            <div class="rad">
+                <input type="checkbox" />Indian
+            </div>
+            <div class="rad">
+                <input type="checkbox" />Sweets
+            </div>
+            <div class="rad">
+                <input type="checkbox" />South Indian
+            </div>
+            <div class="rad">
+                <input type="checkbox" />Chinese
+            </div>
+            <div class="rad">
+                <input type="checkbox" />Western
+            </div>
+            <div class="rad">
+                <input type="checkbox" />Fast Food
+            </div>
+            <div class="rad">
+                <input type="checkbox" />Street Food
+            </div>
+            
+
+            <h3 class="filtersubhead">Food Range</h3>
+            <div class="rad"> <input type="radio" />100-500 </div>
+            <div class="rad"> <input type="radio" />500-1000 </div>
+            <div class="rad"> <input type="radio" />1000-1500 </div>
+            <div class="rad"> <input type="radio" />Above 1500 </div>
+        </div>
+
+
+
+        <!-- Content Div -->   
+
+        <div id="contentdiv">
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/D5Vwr7N/veg.jpg" alt="Veg Thali" title="Veg Thali" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Veg Thali</b></span>
+                    <p><b>Swadishtam Bhojanalaya</b></p>
+                    <p> Special for Maharashtrians, Locality Chandrapur </p>
+                    <span class="spantxt"><b>Rs. <del>400/-</del> 300/- <b class="price">(25% Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.0 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/wsNCf0c/dosa.jpg" alt="Dosa" title="Dosa" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Dosa</b></span>
+                    <p><b>Dosa House </b></p>
+                    <p> South Indian, Maharashtrian, Locality Chandrapur </p>
+
+                    <span class="spantxt"><b>Rs. <del>150/-</del> 100/- <b class="price">(Flat Rs. 50
+                                Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.5 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/SPrjyLw/sweet.jpg" alt="Sweet" title="Sweet" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Boondi Ke Laddu</b></span>
+                    <p><b>Aarti Bakery</b></p>
+                    <p> Indian Sweet Mart, Locality Chandrapur </p>
+
+                    <span class="spantxt"><b>Rs. <del>450/kg</del> 260/kg <b class="price">(40% Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.7 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/KX2ngHg/south.jpg" alt="South Indian" title="South Indian" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>South Indian Thali</b></span>
+                    <p><b>Gharguti Bhojnalaya</b></p>
+                    <p> Best of South Indian Locality Chandrapur </p>
+                    <span class="spantxt"><b>Rs. <del>600/-</del> 400/- <b class="price">(33% Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.1 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/1LkcrFC/khari.jpg" alt="Khari" title="Khari" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Khari</b></span>
+                    <p><b>Bengalore Bakery</b></p>
+                    <p> All types of Sweets And Bakery Products Available, Chandrapur</p>
+                    <span class="spantxt"><b>Rs. <del>200/kg</del> 150/kg <b class="price">(25% Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">3.9 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/VN6f1nv/frychicken.jpg" alt="Fry Chicken" title="Fry Chicken" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Fry Chicken</b></span>
+                    <p><b>Sultan Chicken Center</b></p>
+                    <p> Taste Our Shami Kabab,Fried Chicken and many more.</p>
+                    <span class="spantxt"><b>Rs. <del>250/kg</del> 125/kg <b class="price">(Flat 50% Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.2 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/BPDrBLH/biryani.jpg" alt="Biryani" title="Biryani" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Chicken Biryani</b></span>
+                    <p><b>Hotel Al Zam Zam</b></p>
+                    <p> Biryani, North Indian, Chinese, Mughlai, Saoji Chandrapur</p>
+                    <span class="spantxt"><b>Rs. <del>300/kg</del> 150/kg <b class="price">(Flat 50% Off)</b></b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.6 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="productcard">
+                <div class="cardimg">
+                    <img src="https://i.ibb.co/C2LLy3j/pizza.jpg" alt="Pizza" title="Pizza" />
+                </div>
+                <div class="cardtxt">
+                    <span class="spanhead"><b>Cheese Pizza</b></span>
+                    <p><b>Dominos</b></p>
+                    <p> A crazy fusion like never before. A delicious cheesy pizza</p>
+                    <span class="spantxt"><b>Only Rs. 90</b></span>
+
+                    <p>Rating <button class="btn btn-success ratings">4.5 &star;</button></p>
+
+                    <div>
+                        <button class="btn btn-success orders">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footertext">
+            <p>&copy; Zomato</p>
+        </div>
+        <hr />
+        <div class="footdiv"></div>
+        <div class="footdiv">
+            <p>Contact Us</p>
+            <p>About Us</p>
+        </div>
+        <div class="footdiv noborder"></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <head>
+        <title>Zomato</title>
+        <link href="images/zomato.jpg" rel="icon" />
+        <link href="zomato.css" rel="stylesheet" type="text/css" />
+        <link href="zomatomedia.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="zomato.js"></script>
+    </head>
+</head>
+<body>
+
+    <header>
+        <div id="brand">
+            <a href="index.html"><b><i>Zomato</i></b></a>
+        </div>
+        <div id="social">
+             <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb" class="sociallogo" />
+             </a>
+             <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtube.png" alt="You Tube" class="sociallogo" />
+             </a>
+             <a href="https://www.instagram.com" target="_blank">
+                <img src="images/Instagram.png" alt="Instagram" class="sociallogo" />
+             </a>
+        </div>
+    </header>
+    <div id="search">
+           
+        <div id="logo">
+            <span>S!</span>
+        </div>
+        <div id="heading">
+           Find Best Meal
+        </div>
+        <div id="dropdown">
+            <select id="city" onChange="getRest()">
+                <option>--- Select Your City---</option>
+            </select>
+            <select id="restaurants">
+                <option>--- Select Your Restaurant---</option>
+            </select>
+        </div>
+    </div>
+    <!--Quick Search Div-->
+    <div id="quicksearch">
+        <span id="quickhead">Quick Search</span>
+        <span id="quicksubhead">Find Restaurant By Meal</span>
+        <div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                     <img src="images/samosa.jpg" alt="Samosa"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componenthead">
+                        <a href="images/second.html">Street Food</a>
+                    </div>
+                    <div class="componentsubhead">
+                        Here the better place to eat
+                    </div>
+                </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/dinner.jpg" alt="Dinner"/>
+               </div>
+               <div class="tilecomponent2">
+                   <div class="componenthead">
+                       <a href="images/second.html">Dinner</a>
+                   </div>
+                   <div class="componentsubhead">
+                       Here the better place to eat
+                   </div>
+               </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/coffe.jpg" alt="Coffee"/>
+               </div>
+               <div class="tilecomponent2">
+                   <div class="componenthead">
+                       <a href="images/second.html">Coffee</a>
+                   </div>
+                   <div class="componentsubhead">
+                       Here the better place to Drink Coffee
+                   </div>
+               </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/lunch.jpg" alt="Lunch"/>
+               </div>
+               <div class="tilecomponent2">
+                   <div class="componenthead">
+                       <a href="images/second.html">Lunch</a>
+                   </div>
+                   <div class="componentsubhead">
+                       Here the better place to Drink Coffee
+                   </div>
+               </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/snacks.jpg" alt="Snacks"/>
+               </div>
+               <div class="tilecomponent2">
+                   <div class="componenthead">
+                       <a href="images/second.html">Snacks</a>
+                   </div>
+                   <div class="componentsubhead">
+                       Here the better place to Eat
+                   </div>
+               </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/drink.jpg" alt="Drink"/>
+               </div>
+               <div class="tilecomponent2">
+                   <div class="componenthead">
+                       <a href="images/second.html">Drink</a>
+                   </div>
+                   <div class="componentsubhead">
+                       Here the better place to Drink
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <footer>
+        <div id="footertext">
+            <p>&copy; Zomato</p>
+        </div>
+        <hr />
+        <div class="footdiv"></div>
+        <div class="footdiv">
+            <p>Contact Us</p>
+            <p>About Us</p>
+        </div>
+        <div class="footdiv noborder"></div>
+    </footer>
+</body>
+
+</html>

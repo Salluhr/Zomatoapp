@@ -1,0 +1,252 @@
+
+/*      ---------Media Query------------*/
+@media screen and (max-width:1000px){
+    body{
+        background-color: aqua;
+    }
+   
+    #filterhead{
+        font-size:18px;
+    
+    }
+    #filtersubhead{
+        font-size:14px
+    }
+    .productcard{
+        height:240px;
+     }
+     .cardtxt{
+        font-size:14px ;
+     }
+     .cardtxt p{
+        font-size:14px ;
+     }
+     .spanhead{
+        font-size:18px ;
+     }
+    .spantxt{
+        font-size:13px ;
+     }
+     .ratings {
+        padding: 0px 2px 0px 3px !important;
+    }
+    .orders {
+        padding: 2px 3px 2px 3px !important;
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        background-color: rgb(4, 0, 255);
+    }
+    #filterdiv{
+        height:544
+    }
+        #filterhead{
+            font-size:16px
+        }
+        .filtersubhead{
+            font-size:20px
+        }
+        .productcard{
+            height:220px;
+        }
+        .cardtxt{
+            margin-top: 2%;
+        }
+        .cardtxt p{
+            font-size:12px ;
+        }
+        .spanhead{
+            font-size:16px ;
+        }
+        .spantxt{
+            font-size:12px ;
+        }
+        .ratings {
+            padding: 0px 2px 0px 3px !important;
+        }
+        .orders {
+            padding: 2px 3px 2px 3px !important;
+        }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(255, 0, 179);
+    }
+    
+    #brand{
+        font-size:30px;
+        margin-top:1%;
+    }
+    #social{
+        margin-top:1%;
+    }
+    .sociallogo{
+        height: 35px;
+        
+    }
+    #filterhead{
+        font-size:12px
+    }
+    .productcard{
+        height:220px;
+    }
+    .cardtxt{
+        margin-top: 2%;
+    }
+    .cardtxt p{
+        font-size:11px ;
+    }
+    .spanhead{
+        font-size:15px ;
+    }
+    .spantxt{
+        font-size:11px ;
+    }
+    .ratings {
+        padding: 0px 2px 0px 3px !important;
+    }
+    .orders {
+        padding: 2px 3px 2px 3px !important;
+    }
+    footer{
+        height:100px;
+    }
+    #footertext{
+        font-size: 18px;
+    }
+    .footdiv{
+        height:50px;
+     }
+    .footdiv  > p{
+       font-size: 15px;
+    }
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: rgb(255, 187, 0);
+    }
+       
+    #filterdiv{
+        width:25%
+    }
+    #filterhead{
+        font-size:15px
+    }
+    #contentdiv{
+        width:65%
+    }
+    .productcard{
+        width:90%;
+        margin-left:5%
+    }
+    .cardimg img {
+        margin-top: 12%;
+    }
+    .cardtxt{
+        margin-top: 2%;
+    }
+    .cardtxt p{
+        font-size:13px ;
+    }
+    .spanhead{
+        font-size:20px ;
+    }
+    .spantxt{
+        font-size:12px ;
+    }
+    footer{
+        height:100px;
+    }
+    #footertext{
+        font-size: 18px;
+    }
+    .footdiv{
+        height:50px;
+     }
+    .footdiv  > p{
+       font-size: 15px;
+    }
+    .rad{
+        margin-left: 5%;
+    }
+    .filtersubhead{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(255, 60, 0);
+    }
+    
+    #filterdiv{
+        width:25%
+    }
+    #filterhead{
+        font-size:15px
+    }
+    #contentdiv{
+        width:65%
+    }
+    .productcard{
+        width:90%;
+        margin-left:5%
+    }
+    .cardimg img {
+        margin-top: 12%;
+    }
+    .cardtxt{
+        margin-top: 2%;
+    }
+    .cardtxt p{
+        font-size:12px ;
+    }
+    .spanhead{
+        font-size:19px ;
+    }
+    .spantxt{
+        font-size:12px ;
+    }
+    footer{
+        height:100px;
+    }
+    #footertext{
+        font-size: 18px;
+    }
+    .footdiv{
+        height:50px;
+     }
+    .footdiv  > p{
+       font-size: 15px;
+    }
+    .rad{
+        margin-left: 5%;
+    }
+    .filtersubhead{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: rgb(132, 0, 255);
+    }
+    #filterhead{
+        font-size:12px
+    }
+    #filtersubhead{
+        font-size:10px
+    }
+    .cardtxt{
+        margin-top: 2%;
+    }
+    .cardtxt p{
+        font-size:11px ;
+    }
+    .spanhead{
+        font-size:18px ;
+    }
+    .spantxt{
+        font-size:11px ;
+    }
+}
+/*      ---------End Of Media Query------------*/

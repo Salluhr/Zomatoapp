@@ -1,0 +1,361 @@
+body {
+    margin: auto
+}
+
+/*Header CSS*/
+header {
+    height: 60px;
+    /*border:2px solid red;*/
+    background-color: black;
+}
+
+#brand {
+    float: left;
+    margin-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+
+}
+
+#brand>a {
+    color: rgb(199, 8, 8) !important;
+    text-decoration: none;
+}
+
+#social {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.sociallogo {
+    height: 33px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Search CSS*/
+#search {
+    height: 350px;
+    
+    border: 2px solid green;
+    background-image: url(https://i.ibb.co/8zYZ457/zomatoimg.jpg);
+    background-size:auto;
+ 
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 5%;
+    position: absolute;
+    font-size: 70px;
+}
+
+#logo>span {
+    margin-left: 19%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#heading {
+    font-size: 47px;
+    color: #fff;
+    margin-left: 39%;
+    margin-top: 13%;
+    position: absolute;
+}
+
+#dropdown {
+    width: 45%;
+    /*border:2px solid white;*/
+    height: 10%;
+    margin-left: 28%;
+    margin-top: 18%;
+}
+
+select {
+    font-size: 17px;
+    text-align: center;
+    width: 40%;
+    height: 100%
+}
+
+#restaurants {
+    width: 59%
+}
+
+#quicksearch {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    /* border:2px solid rgb(95, 118, 131); */
+    display: inline-block;
+}
+
+#quickhead {
+    display: block;
+    font-size: 30px;
+    color: rgba(36, 19, 63, 0.801);
+    font-weight: bold;
+}
+
+#quicksubhead {
+    display: block;
+    font-size: 20px;
+    color: grey;
+    line-height: 2;
+}
+
+.tilecontainer {
+    width: 30%;
+    height: 30%;
+    /* border:2px solid red; */
+    box-shadow: 12px 15px 18px rgb(12, 7, 7);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.tilecontainer:hover {
+    transform: scale(1.1);
+}
+
+.tilecomponent1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.tilecomponent1>img {
+    width: 100%;
+    height: 100%
+}
+
+.tilecomponent2 {
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+.componenthead a {
+    color: brown;
+    font-size: 25px;
+}
+
+.componentsubhead {
+    color: rgb(49, 33, 73);
+    font-size: 20px;
+}
+
+/*      ---------Zomato Listing Css------------*/
+
+#mainmenu {
+    height: 44px;
+    width: 79%;
+    margin-left: 10%;
+    margin-top: -55px;
+    background-color: black;
+    /*border:2px solid brown;*/
+}
+
+/* ----- Search Bar ------*/
+#menu {
+    margin-top: 1%;
+    height: 80%;
+    width: 100%;
+    background-color: black;
+}
+
+#home {
+    height: 80%;
+    width: 20%;
+    background-color: black;
+    float: left;
+}
+
+#home a {
+    float: left;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: -1px;
+    text-align: center;
+    color: white !important;
+    text-decoration: none;
+}
+
+#dropbar {
+    margin: -2px;
+}
+
+.fa {
+    height: 20px !important;
+    margin-top: 13%;
+    margin-bottom: -24%;
+}
+
+#log {
+    height: 100%;
+    width: 20%;
+    background-color: black;
+    float: right;
+    margin-left: 5%;
+    margin-top: -4%;
+}
+
+#log>button {
+    margin-right: 12%;
+
+    padding: 1px 3px 1px 3px;
+    color: black;
+    font-size: 16px;
+    background-color: #fff;
+    float: right;
+    border-radius: 20%;
+}
+
+/* ----- Search Bar End------*/
+
+#content {
+    width: 95%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+/*    Filter Div  */
+#filterdiv {
+    margin-top: 4%;
+    height: 520px;
+    width: 20%;
+    border: 5px groove rgb(240, 193, 213);
+    float: left;
+}
+
+#filterhead {
+    color: rgb(82, 65, 44);
+    text-align: center;
+    font-size: 23px;
+}
+
+.filtersubhead {
+    color: brown;
+    text-align: center;
+}
+
+.rad {
+    margin-left: 15%;
+}
+
+#contentdiv {
+    margin-top: 2%;
+    margin-left: 3%;
+    float: left;
+    width: 75%;
+}
+
+.productcard {
+    height: 250px;
+    width: 45%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 10%;
+    box-shadow: 10px 13px 10px rgb(59, 33, 59);
+    background-color: rgb(247, 236, 236);
+
+}
+
+
+.cardimg img {
+    height: 70%;
+    width: 45%;
+    float: left;
+    margin-top: 9%;
+    margin-left: 3%;
+    border-radius: 10%;
+}
+
+.cardtxt {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.spanhead {
+    color: rgb(75, 2, 30);
+    font-size: 23px;
+    display: block;
+}
+
+.spantxt {
+    display: block;
+}
+
+.ratings {
+    padding: 1px 2px 1px 2px !important;
+}
+
+.orders {
+    background-color: rgb(75, 2, 30) !important;
+
+}
+
+.orders:hover {
+    transform: scale(1.1)
+}
+
+.price {
+    color: #397a39;
+    ;
+}
+
+
+/* Zomato Listing Css End*/
+
+/*Footer CSS*/
+footer {
+    margin-top: 5%;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    /*border:2px solid rgb(175, 103, 154)*/
+}
+
+#footertext {
+    font-size: 22px;
+    height: 18px;
+    color: white;
+    text-align: center;
+}
+
+#footertext p {
+    margin-left: -2%;
+}
+
+.footdiv {
+    height: 45px;
+    width: 33%;
+    float: left;
+    border-right: 4px groove white;
+
+}
+
+.footdiv>p {
+    margin-top: -2%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.noborder {
+    border: none;
+}
